@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+venv/
+*.xlsx
+# Kita jangan upload database 4000 baris yang asli ke GitHub 
+# supaya repo tetap ringan, cukup lampirkan di release atau sample saja.
