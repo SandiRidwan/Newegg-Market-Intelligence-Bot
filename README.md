@@ -1,19 +1,51 @@
-# Newegg Market Intelligence Bot
+# 🦅 Newegg Market Intelligence Bot
+**Autonomous High-Volume E-commerce Extraction Engine**
 
-An autonomous high-volume data extraction engine built with Python and Selenium. This system utilizes a **Predator-Search Logic** to bypass complex navigational structures and extract thousands of product records across 100+ categories.
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python)
+![Selenium](https://img.shields.io/badge/Automation-Selenium-red.svg?style=for-the-badge&logo=selenium)
+![E-commerce](https://img.shields.io/badge/Target-Newegg-orange.svg?style=for-the-badge)
+![Database](https://img.shields.io/badge/Output-Excel/CSV-green.svg?style=for-the-badge&logo=microsoft-excel)
 
-## 🚀 Performance
-- **Data Extracted:** 4,000+ Unique Product Records.
-- **Scope:** 100+ Categories (from GPUs to Smart Home devices).
-- **Architecture:** Modular Object-Oriented Programming (OOP).
+---
 
-## 🛠️ Key Features
-- **Seed-Based Discovery:** Uses 100 master keywords for full-site coverage.
-- **Anti-Detection:** Randomized sleep intervals and User-Agent rotation.
-- **Checkpoint System:** Automatically saves progress to Excel after every category to prevent data loss.
-- **Recursive Pagination:** Automatically handles multi-page results.
+## ⚡ The "Predator-Search" Logic
+This isn't a basic scraper. Built with a **Predator-Search Architecture**, this bot is designed to hunt down product data across complex navigational structures. It bypasses shallow scraping limitations to extract deep-level market intelligence.
 
-## 📦 Installation
-1. Clone the repo: `git clone https://github.com/username/Newegg-Market-Intelligence-Bot.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the bot: `python src/main_scraper.py`
+> **Current Scale:** 4,000+ Unique Product Records across 100+ Tech Categories.
+
+---
+
+## 🚀 Performance Metrics
+
+* **🛰️ Scope:** 100+ Categories (from High-End GPUs to Smart Home IoT).
+* **🏎️ Speed:** Optimized concurrent-ready processing with recursive pagination.
+* **📦 Reliability:** Built-in **Checkpoint System** to resume from the last successful category.
+* **🛠️ Architecture:** Full **Modular OOP (Object-Oriented Programming)** for easy scaling.
+
+---
+
+## 🛠️ Key Technical Features
+
+### 🔍 Seed-Based Discovery
+Uses a proprietary list of **100 master keywords** to ensure 100% site coverage, capturing products that traditional category-browsing might miss.
+
+### 🛡️ Anti-Detection Suite
+* **User-Agent Rotation:** Mimics various modern browsers to avoid fingerprinting.
+* **Randomized Jitter:** Implements human-mimicry sleep intervals between 3s to 8s.
+* **Remote Debugging:** Operates via established browser sessions to bypass initial bot-checks.
+
+### 🔄 Recursive Pagination
+Automatically detects and traverses "Next Page" buttons across thousands of results until the last record is captured.
+
+---
+
+## 📂 Project Structure
+
+```text
+├── src/
+│   ├── main_scraper.py      # Entry point for the bot
+│   ├── logic_engine.py      # Predator-Search algorithms
+│   └── data_handler.py      # Excel Checkpoint & Formatting
+├── data/                    # Auto-saved category results
+├── requirements.txt         # Dependency list
+└── README.md
